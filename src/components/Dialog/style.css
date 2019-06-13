@@ -1,0 +1,42 @@
+#dialog-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#dialog-body {
+    padding: 16px;
+    background-color: white;
+    z-index: 30;
+    padding-top: 64px;
+    position: relative;
+}
+
+#dialog-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .6;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+}
+
+#ex {
+    position: absolute;
+    top: 12px;
+    right: 16px;
+    font-weight: bold;
+}
+
+#ex:hover {
+    cursor: pointer;
+    color: grey;
+}

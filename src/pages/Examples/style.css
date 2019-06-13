@@ -1,0 +1,32 @@
+.example-div {
+    padding: 16px 0;
+    padding-bottom: 36px;
+    flex-direction: column;
+}
+.example-div p {
+    flex-direction: row;
+    padding-top: 0px !important;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    margin-right: 16px;
+    box-shadow: 5px 0px 10px grey;
+}
+
+.character-card a {
+    color: grey !important;
+}
+
+.row-div {
+    flex-direction: row !important;
+}
+
+.blue-boi {
+    color: blue;
+}
+
+#color-text {
+    font-size: 36px;
+    width: 40vw;
+}
